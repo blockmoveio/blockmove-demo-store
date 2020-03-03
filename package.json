@@ -1,0 +1,17 @@
+{
+  "name": "blockmove-demo-store",
+  "version": "1.0.0",
+  "description": "Blockmove.io Demo Store",
+  "main": "server.js",
+  "author": "dev@blockmove.io",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  }
+}

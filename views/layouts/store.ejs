@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="/css/icofont.min.css">
+	<link rel="stylesheet" href="/css/meanmenu.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/responsive.css">
+
+	<title>Demo Store | Accept Bitcoin, Litecoin, Ethereum & Other | Merchant & API provider | Blockmove.io</title>
+
+	<link rel="icon" type="image/png" href="/img/blockmove.png">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151937934-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-151937934-1');
+	</script>
+</head>
+
+<body>
+
+<header id="header">
+	<div class="crake-mobile-nav">
+		<div class="logo">
+			<a href="/">
+				<img src="/img/logo.png" alt="">
+				<span>Demo Store</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="crake-nav">
+		<div class="container">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a class="navbar-brand" href="/">
+					<img src="/img/logo.png" alt="logo">
+					<span>Demo Store</span>
+				</a>
+
+				<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+					<ul class="navbar-nav nav ml-auto">
+						<li class="nav-item">
+							<a href="/" class="nav-link<% if (home) { %> active<% } %>">Products</a>
+						</li>
+					</ul>
+				</div>
+				<div class="mr-auto others-option">
+					<ul class="navbar-nav">
+						<li class="nav-item cart-wrapper">
+							<a href="/cart">
+								<i class="icofont-shopping-cart cart-icon"></i>
+
+								<span id="cart_count">0</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<section class="page-title-banner"></section>
+
+<%-body%>
+
+<footer class="footer-area pb-0 bg-image">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<div class="single-footer-widget">
+					<a href="#" class="logo"><img src="/img/logo2.png" alt="logo2"></a>
+					<p>This is a Demo Store of Blockmove.io service to demonstrate how merchant website can work with products and payments.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="copyright-area">
+		<div class="container">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="col-lg-6 col-md-6">
+					<p>Copyright @ <%=year%> Blockmove.io. All rights reserved</p>
+				</div>
+
+				<div class="col-lg-6 col-md-6"></div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.meanmenu.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

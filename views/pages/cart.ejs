@@ -1,0 +1,52 @@
+<section class="cart-area ptb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="cart-table table-responsive">
+                    <table class="table table-bordered" id="cart_table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Product</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Unit Price</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Remove</th>
+                        </tr>
+                        </thead>
+
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div class="cart-buttons">
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="col-lg-7 col-md-7">
+                            <div class="coupon-box">
+                                <input type="text" class="form-control" placeholder="Coupon Code">
+                                <button type="submit">Apply Coupon Code</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 text-right">
+                            <a href="#" class="btn btn-primary" id="update_cart">
+                                <i class="icofont-refresh"></i>
+                                Update Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-totals">
+                    <h3>Cart Totals</h3>
+
+                    <ul>
+                        <li>Subtotal: <span>$<span class="cart-total">0.00</span></span></li>
+                        <li>Total: <span>$<span class="cart-total">0.00</span></span></li>
+                    </ul>
+                    <a href="/checkout" class="btn btn-primary">Proceed to Checkout <i class="icofont-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
